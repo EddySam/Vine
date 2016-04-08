@@ -1,0 +1,75 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid #47a3da;
+}
+
+.conteiner h1 {
+    color: #47a3da;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #47a3da;
+}
+
+.conteiner h2 {
+    color: #47a3da;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.conteiner .money {
+    font-size: 24px;
+    color: #c0c0c0;
+    padding-bottom: 15px;
+}
+
+.conteiner .describe {
+    color: #47a3da;
+    margin-bottom: 40px;
+}
+
+.conteiner a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background: #47a3da;
+}
+
+.row {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+[class *="col"] {
+// background : #d00;
+    float: left;
+
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 20px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 20px;
+}
+.container .btn:before {
+    content: "+";
+    color: #47a3da;
+    background: #fff;
+    border-radius: 50%;
+}
+
